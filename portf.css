@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 0 20px;
+}
+
+header, footer {
+    background-color: #0f172a;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header h1, footer h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+i {
+    margin: 0 10px;
+    font-size: 1.5rem;
+    color: #38bdf8;
+    transition: transform 0.3s;
+}
+i:hover {
+    transform: scale(1.2);
+    color: #60a5fa;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 0;
+}
+
+section {
+    margin-bottom: 80px;
+}
+
+section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #0f172a;
+}
+
+section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #475569;
+}
+
+button {
+    padding: 12px 28px;
+    background-color: #0f172a;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #1e293b;
+}
+
+
+form {
+    background-color: #e2e8f0;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    max-width: 600px;
+}
+form label {
+    font-weight: bold;
+}
+form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+form textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+
+div h2 {
+    color: #0f172a;
+    font-size: 1.5rem;
+}
+div span {
+    color: #64748b;
+    font-size: 1rem;
+}
+
+section img {
+    border-radius: 10px;
+    margin: 20px 0;
+    max-width: 100%;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    header h1, footer h1 {
+        font-size: 2rem;
+    }
+
+    section h1 {
+        font-size: 2rem;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    img {
+        width: 100% !important;
+        height: auto !important;
+    }
+}
